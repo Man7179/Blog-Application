@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
     credentials: true,
-    origin: ["http://localhost:3000", "https://rainbow-tulumba-120d86.netlify.app"] // Add your Netlify app here
+    origin: ["http://localhost:3000", "https://chipper-biscotti-9597be.netlify.app"] // Add your Netlify app here
 }));
 app.use(upload());
 app.use('/uploads',express.static(__dirname+'/uploads'))
